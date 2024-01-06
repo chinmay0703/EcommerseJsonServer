@@ -1,0 +1,12 @@
+/* Default styles for smaller screens */
+img {
+    width: 100%;
+    height: auto; /* Set height to auto for responsive scaling */
+}
+
+/* Media query for screens with a minimum width of, for example, 768px (adjust as needed) */
+@media (min-width: 768px) {
+    img {
+        height: auto; /* Apply the specific height for larger screens */
+    }
+}

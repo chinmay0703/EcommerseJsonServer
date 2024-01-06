@@ -1,0 +1,46 @@
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    transition: 0.3s ease-in-out;
+}
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+    min-width: 0;
+    border: none;
+}
+@media (max-width: 768px) {
+    .card {
+        /* Adjust your styles for smaller screens here */
+        margin: 10px;
+        margin-right: 20px; /* For example, reduce the margin */
+        width: 90%; /* Make the cards take the full width of the viewport */
+    }
+    .card img {
+        width: 40%; /* Make the images take the full width of the card */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+@media (max-width: 1024px) {
+    .card {
+        /* Adjust your styles for smaller screens here */
+        margin: 10px;
+        margin-right: 20px; /* For example, reduce the margin */
+        width: 90%; /* Make the cards take the full width of the viewport */
+    }
+    .card img {
+        width: 40%; /* Make the images take the full width of the card */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+/* CSS Reset */
